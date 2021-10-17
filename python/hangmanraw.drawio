@@ -1,1 +1,146 @@
-<mxfile host="app.diagrams.net" modified="2021-10-17T09:43:02.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.4" etag="biaK2Q5lwQ5Pp4MovUj4" type="github"><diagram id="58XbQkQwnNvlHLydZs97">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-17T14:04:03.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="9f0Dy3Jf1UcyatDC5158" version="15.5.4" type="github">
+  <diagram id="58XbQkQwnNvlHLydZs97" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-1" value="reward = beekeeper" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="880" y="300" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-2" target="Le4_ER_VwFzBmb18YCWx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-2" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-3" target="Le4_ER_VwFzBmb18YCWx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-3" value="print Logo&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="170" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-5" target="Le4_ER_VwFzBmb18YCWx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-5" value="change logo&lt;br&gt;reward = [keeper]&lt;br&gt;times = 10&lt;br&gt;show =[]" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="945" y="270" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-7" target="Le4_ER_VwFzBmb18YCWx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-7" target="Le4_ER_VwFzBmb18YCWx-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-7" value="variable word = &#39;a&#39;&lt;br&gt;if reward.count(word)&amp;nbsp; == 0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="575" width="207.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-13" target="Le4_ER_VwFzBmb18YCWx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-13" value="while&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="380" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-17" target="Le4_ER_VwFzBmb18YCWx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-17" value="word = input()" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-20" value="near to fail&lt;br&gt;times== 10" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-23" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1173.75" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-25" target="Le4_ER_VwFzBmb18YCWx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-25" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-26" target="Le4_ER_VwFzBmb18YCWx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-26" value="Generate a Random Word." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-28" target="Le4_ER_VwFzBmb18YCWx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-28" value="Generate as many blank spaces as in the Random Word." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335" y="230" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-30" target="Le4_ER_VwFzBmb18YCWx-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-30" value="Ask the User to Guess a letter." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335" y="320" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-34" target="Le4_ER_VwFzBmb18YCWx-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-34" value="Check if the letter exists in the word." style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-38" target="Le4_ER_VwFzBmb18YCWx-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-38" value="Replace the space with the letter." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-40" target="Le4_ER_VwFzBmb18YCWx-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-40" target="Le4_ER_VwFzBmb18YCWx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-40" value="Are all the spaces filled?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="615" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Le4_ER_VwFzBmb18YCWx-44" source="Le4_ER_VwFzBmb18YCWx-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-44" target="Le4_ER_VwFzBmb18YCWx-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-44" value="User loses a life" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-45" target="Le4_ER_VwFzBmb18YCWx-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Le4_ER_VwFzBmb18YCWx-45" target="Le4_ER_VwFzBmb18YCWx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-45" value="Are all the chances over?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="615" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-48" value="Game Finished." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-51" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="674" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-52" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="670" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-57" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-58" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-59" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="410" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Le4_ER_VwFzBmb18YCWx-60" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="420" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
